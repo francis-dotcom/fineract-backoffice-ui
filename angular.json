@@ -69,6 +69,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "LICENSE",
+                "input": "node_modules/@fontsource-variable/montserrat",
+                "output": "assets/licenses/montserrat"
               }
             ],
             "styles": ["node_modules/@ionic/angular/css/ionic.bundle.css", "src/styles.scss"]

@@ -237,6 +237,16 @@ which kind of question.
 
 ---
 
+## Third-party fonts
+
+The built application bundles the **Montserrat** typeface from the
+[`@fontsource-variable/montserrat`](https://fontsource.org/fonts/montserrat) package, Copyright
+2011 The Montserrat Project Authors. It is distributed in binary form under the
+[SIL Open Font License 1.1](https://openfontlicense.org/). The licence text is included in the
+built application at `assets/licenses/montserrat/LICENSE`.
+
+---
+
 ## License
 
 Copyright 2025-2026 The Apache Software Foundation
