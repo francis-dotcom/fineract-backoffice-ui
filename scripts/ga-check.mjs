@@ -316,8 +316,8 @@ function* sources(dir = 'src') {
 // cost more than it looked: Angular's font inlining fetched the stylesheet at *build* time and
 // failed the entire build when it was unreachable, and at *runtime* the browser fetched the
 // binaries from `fonts.gstatic.com` — which `deploy/nginx.conf.template`'s `font-src 'self' data:`
-// blocked, so the deployed UI silently rendered in the fallback stack. Inter is now bundled
-// from `@fontsource-variable/inter` and served from this origin.
+// blocked, so the deployed UI silently rendered in the fallback stack. The branded Montserrat
+// face is now bundled from `@fontsource-variable/montserrat` and served from this origin.
 //
 // This gate keeps it that way. It matches host references that carry a scheme or a
 // protocol-relative prefix, so prose in a code comment does not trip it but a real <link>,

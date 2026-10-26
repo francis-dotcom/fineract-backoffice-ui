@@ -69,8 +69,9 @@ Category A pending PMC confirmation, and that is recorded rather than assumed.
 
 ### The classifier is tested
 
-`npm run check:licenses:selftest` runs 26 expressions through the classifier and asserts the
-verdict for each — that `LGPL-3.0-only` and `SSPL-1.0` come out X, that `MPL-2.0` comes out B, that
+`npm run check:licenses:selftest` runs 27 expressions through the classifier and asserts the
+verdict for each — that `LGPL-3.0-only` and `SSPL-1.0` come out X, that `MPL-2.0` and `OFL-1.1`
+come out B, that
 `(MIT OR GPL-3.0)` resolves under MIT while `(MIT AND GPL-3.0)` does not, and that an undeclared or
 unrecognised licence comes out Unknown.
 

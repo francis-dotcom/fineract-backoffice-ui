@@ -111,6 +111,7 @@ const CATEGORY_B = new Set([
   'IPA',
   'MPL-1.1',
   'MPL-2.0',
+  'OFL-1.1',
   'OSL-3.0',
   'SPL-1.0',
   'UPL-1.0',
@@ -318,6 +319,7 @@ function runSelfTest() {
     ['Python-2.0', 'A'],
     ['MPL-2.0', 'B'],
     ['EPL-2.0', 'B'],
+    ['OFL-1.1', 'B'],
     // The one this project actually removed.
     ['LGPL-3.0-only', 'X'],
     ['LGPL-3.0', 'X'],
