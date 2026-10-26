@@ -19,7 +19,7 @@ under the License.
 
 # Fonts
 
-The UI uses **Montserrat** as the OgiGrid CFMS brand typeface. It is bundled locally from the
+The UI uses **Montserrat** as the CFMS brand typeface. It is bundled locally from the
 exactly pinned `@fontsource-variable/montserrat` package and served from the application origin.
 No font is fetched from Google or another third party during the build or at runtime.
 

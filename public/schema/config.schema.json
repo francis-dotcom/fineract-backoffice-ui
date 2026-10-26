@@ -136,6 +136,7 @@
         },
         "primary-dark": { "$ref": "#/$defs/hexColor" },
         "primary-strong": { "$ref": "#/$defs/hexColor" },
+        "primary-text": { "$ref": "#/$defs/hexColor" },
         "secondary-color": {
           "$ref": "#/$defs/hexColor",
           "description": "Sidebar ground. Must clear 4.5:1 against white specifically: the sidebar pairs it with a literal white in CSS, so there is no label variable to flip."
@@ -145,8 +146,11 @@
         "text-color": { "$ref": "#/$defs/hexColor" },
         "text-muted": { "$ref": "#/$defs/hexColor" },
         "error-color": { "$ref": "#/$defs/hexColor" },
+        "error-strong": { "$ref": "#/$defs/hexColor" },
         "success-color": { "$ref": "#/$defs/hexColor" },
+        "success-text": { "$ref": "#/$defs/hexColor" },
         "warning-color": { "$ref": "#/$defs/hexColor" },
+        "warning-text": { "$ref": "#/$defs/hexColor" },
         "border-color": { "$ref": "#/$defs/hexColor" },
         "border-radius": { "$ref": "#/$defs/cssLength" },
         "header-height": { "$ref": "#/$defs/cssLength" },
