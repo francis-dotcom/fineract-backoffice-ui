@@ -1,0 +1,15 @@
+{
+  "app": {
+    "title": "CFMS",
+    "shortTitle": "CFMS",
+    "welcome": "Welcome to CFMS"
+  },
+  "login": {
+    "title": "CFMS Login",
+    "welcome": "Cooperative Financial Management System"
+  },
+  "GUIDE": {
+    "DASHBOARD_WELCOME_TITLE": "Welcome to CFMS",
+    "DASHBOARD_ENV_DESC": "Monitor the connected cooperative financial environment, active tenant, and runtime API configuration."
+  }
+}

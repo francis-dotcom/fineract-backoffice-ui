@@ -43,6 +43,10 @@ tsconfig.e2e.json
 eslint.config.js
 sonar-project.properties
 public/favicon.png
+deploy/cfms-branding/config.json
+deploy/cfms-branding/i18n/en.json
+deploy/cfms-branding/logo.png
+deploy/cfms-branding/favicon.png
 src/assets/i18n/*.json
 # JSON admits no comments, so these carry no ASF header. All five are data rather than
 # creative work: a published JSON Schema, a worked configuration example, and generated

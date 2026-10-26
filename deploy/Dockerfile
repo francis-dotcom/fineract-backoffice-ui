@@ -47,6 +47,10 @@ FROM nginx:stable-alpine@sha256:97d490c12ba55b4946b01546d1c3ed324e8d41ab1c9fcb2a
 # Only the built output crosses the stage boundary: no node_modules, no sources, no git history.
 COPY --from=build /app/dist/fineract-backoffice-ui/browser /usr/share/nginx/html
 
+# This fork ships the CFMS deployment overlay separately from the upstream application defaults.
+# The entrypoint detects the directory and enables the runtime branding configuration.
+COPY deploy/cfms-branding/ /usr/share/nginx/html/branding/
+
 # A template rather than a finished config. The upstream Fineract is not known until the container
 # starts, and the whole point of the proxy is that the browser only ever talks to this origin.
 COPY deploy/nginx.conf.template /etc/nginx/templates/default.conf.template

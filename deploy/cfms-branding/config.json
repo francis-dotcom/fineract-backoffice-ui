@@ -1,0 +1,46 @@
+{
+  "$schema": "/schema/config.schema.json",
+  "branding": {
+    "appName": "CFMS",
+    "logoUrl": "branding/logo.png",
+    "faviconUrl": "branding/favicon.png",
+    "tokens": {
+      "light": {
+        "primary-color": "#0f766e",
+        "primary-dark": "#0b5d56",
+        "primary-strong": "#0b6b4f",
+        "primary-text": "#0b6b4f",
+        "secondary-color": "#16324f",
+        "bg-color": "#f4f8f5",
+        "card-bg": "#ffffff",
+        "text-color": "#1f2937",
+        "text-muted": "#5b6770",
+        "error-color": "#c0392b",
+        "error-strong": "#9f2f25",
+        "success-color": "#238636",
+        "success-text": "#146c43",
+        "warning-color": "#d4a017",
+        "warning-text": "#835d00",
+        "border-color": "#d7e3dc",
+        "border-radius": "10px"
+      },
+      "dark": {
+        "primary-color": "#0f766e",
+        "primary-dark": "#0b5d56",
+        "primary-strong": "#0f766e",
+        "primary-text": "#5eead4",
+        "secondary-color": "#102a2e",
+        "bg-color": "#0b1715",
+        "card-bg": "#12221f",
+        "text-color": "#e7f3ef",
+        "text-muted": "#b3c5bf",
+        "error-color": "#f87171",
+        "success-color": "#4ade80",
+        "success-text": "#86efac",
+        "warning-color": "#facc15",
+        "warning-text": "#facc15",
+        "border-color": "#28443d"
+      }
+    }
+  }
+}
